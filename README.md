@@ -1,5 +1,10 @@
 # Nginx
- 
+
+
+git clone https://github.com/masharif46/Nginx.git
+
+cd Nginx
+
 podman build --tag root/Nginx .
 
 podman images
