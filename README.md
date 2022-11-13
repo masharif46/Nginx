@@ -5,15 +5,15 @@ git clone https://github.com/masharif46/Nginx.git
 
 cd Nginx
 
-podman build --tag root/Nginx .
+podman build --tag root/nginx .
 
 podman images
 
-podman run -dit --name Nginx -p 80:8080  localhost/root/Nginx
+podman run -dit --name nginx -p 80:8080  localhost/root/nginx
 
 podman ps
 
-podman exec -it Nginx /bin/bash
+podman exec -it nginx /bin/bash
 
 http://serverIPaddrsss
 
